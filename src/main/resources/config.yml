@@ -1,0 +1,23 @@
+game:
+  round-seconds: 420        # 1 kolo = 7 minut
+  break-seconds: 10         # prestavka medzi kolami
+  min-players: 2            # pre testovanie sam daj 1
+  pvp-grace-seconds: 15     # ochrana pred PvP po starte
+  reward-levels: 30         # XP (levely) pre vitaza
+
+arena:
+  mode: generate            # generate = kazde kolo nova nahodna mapa | existing = pouzije svet nizsie
+  existing-world: world
+  border-size: 1000         # velkost mapy (worldborder)
+  spawn-spread: 420         # v akom polomere sa hraci rozhadzu
+  allay-radius: 450         # v akom polomere sa moze objavit Allay
+  mob-spawning: false
+
+hints:                      # sekundy od zaciatku kola
+  compass-at: 120           # Allay Radar (kompas + vzdialenost, priblizna)
+  glow-at: 240              # Allay zacne svietit
+  exact-at: 330             # Radar ukazuje presnu polohu
+  radar-fuzz: 80            # nepresnost radaru v blokoch
+
+lobby:
+  world: allayhunt_lobby

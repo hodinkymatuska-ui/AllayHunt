@@ -1,0 +1,17 @@
+name: AllayHunt
+version: 1.0.0
+main: sk.allayhunt.AllayHunt
+api-version: '1.21'
+description: Najdi Allay a daj mu darcek!
+commands:
+  allayhunt:
+    description: Admin prikazy
+    aliases: [ah]
+  lobby:
+    description: Spat do lobby
+  spectate:
+    description: Spectatuj hraca
+    aliases: [spec]
+permissions:
+  allayhunt.admin:
+    default: op
